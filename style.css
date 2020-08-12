@@ -7,54 +7,49 @@ body{
     background: rgba(245, 245, 245, 0.774);
 }
 /*navbar*/
-
-nav{
-    background: whitesmoke !important ;
-    position: fixed;
-
+a.navList:hover{
+    color: #4BBDC2 !important;
 }
-.dropdown-menu{
-    display: none;
-}
-.dropdown-menu:hover a{
-    display: inline-flex;
-}
-ul{
-    display: inline-block;
-}
-ul li{
-    margin-right: 10px;
+.navShopNow{
+    height: 1.7em !important;
+    width: 100%;
+    border-radius: 10em !important;
+    background: #04C9D2;
+    border: #04C9D2;
+    line-height: 0.8em;
 }
 /*carousel section*/
-.carousel{
-
-    color: white;
-    background-image: url("images/FALL20-Desktop-Rotating-GIf-BTS-Marquee2.gif");
-    height:700px;
+section > div.bg{
+    height: 100vh;
     width: 100%;
+    background: url(images/slide2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 2em;
 }
-.box{
-    position: relative;
-    bottom: -20%;
-    margin-left:150px;
+.track{
+    color: #FFFFFF;
 }
-.carousel-a{
-    display: flex;
-
+article{
+    font-size: 2em;
 }
-.first{
-    margin-right: 15px;
-    border-right: 2px solid white;
+.mate{
+    font-size: 2em;
 }
-.second{
-    margin-right: 15px;
-    border-right: 2px solid white;
-}
-.third{
-    margin-right: 15px;
-
+.shopNow{
+    height: 2em !important;
+    width: 40%;
+    border-radius: 10em !important;
+    background: #04C9D2;
+    border: #04C9D2;
+    line-height: 1em;
 }
 /*product section*/
+.premium{
+    background: #FFFFFF !important;
+    border-radius: 2em !important;
+}
 .parent{
     display: flex;
     
@@ -92,26 +87,12 @@ margin-left: 110px;
     padding: 25px 30px 25px 30px;
 }
 .child1 img{
-    width: 300px;
     border-radius: 40px;
-    margin-right: 29px;
-
 }
 #d-flex-aa{
     margin-top: 90px;
     font-size: 40px;
     
-}
-.flex-a{
-    
-    border-radius: 25px;
-    background: hsl(0, 10%, 94%);
-    height: 200px;
-    width: 300px;
-    justify-content: center;
-    text-align: center;
-    margin-left: 20px;
-    margin-top: 45px;
 }
 footer{
     background: black;
@@ -123,7 +104,50 @@ footer{
     color: white;
 }
     
-    
+@media screen and (min-width: 200px) and (max-width: 1300px){
+   
+    section > div.bg{
+        height: auto;
+        width: 100%;
+        background: url(images/mobileslide.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-top: 3em;
+    }
+    .track{
+        padding-top: 2px !important;
+    }
+    .mate{
+        font-size: 1.2em;
+        font-weight: bold;
+        padding-top: 2px !important;
+    }
+    .shopNow{
+        height: 2em !important;
+        width: 70%;
+        border-radius: 10em !important;
+        background: #04C9D2;
+        border: #04C9D2;
+        line-height: 1em;
+    }
+    article{
+        font-size: 1.8em;
+        width: 100em !important;
+    }
+    .navShopNow{
+        height: 2.6em !important;
+        width: 100%;
+        border-radius: 10em !important;
+        background: #04C9D2;
+        border: #04C9D2;
+        line-height: 1.8em;
+    }
+    .premium{
+        height: auto !important;
+        width: 95% !important;
+    }
+}
 
 
 

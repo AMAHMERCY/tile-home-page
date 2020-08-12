@@ -4,30 +4,65 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!--External css-->
-<link rel="stylesheet" href="style.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
-
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!--External css-->
+    <link rel="stylesheet" href="style.css">
     <title>Tile home page</title>
   </head>
   <body>
     <header>
-        
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            
-            <a class="navbar-brand" href="#"><img src="images/download1.svg"alt="Tile logo"
-                style="height: 30px;margin-left: 200px;"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">How it works <span class="sr-only">(current)</span></a>
-                </li>
-                
-                <li class="nav-item dropdown">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light shadow pl-5 text-center" style="background: #FFFFFF !important;">
+          <a class="navbar-brand pl-5 font-weight-bolder" href="#" style="font-size:2em;">tile</a>
+          <button class="navbar-toggler float-md-left" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active pl-3">
+                <a class="nav-link navList" href="#">How it Works <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown pl-3">
+                <a class="nav-link navList dropdown dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Product
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item pl-3">
+                <a class="nav-link navList" href="#"><strong>Premium</strong></a>
+              </li>
+              <li class="nav-item pl-3">
+                <a class="nav-link navList" href="#"><strong>Partners</strong></a>
+              </li>
+              <li class="nav-item pl-3">
+                <a class="nav-link navList" href="#"><strong>Corp Sales</strong></a>
+              </li>
+            </ul>
+            <ul class="navbar-nav mr-5 ">
+              <li class="nav-item">
+                <a class="nav-link navList" href="#"><strong>Help</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navList" href="#"><strong>Log In</strong></a>
+              </li>
+              <li class="nav-link">
+                <a href="#" class="btn btn-primary btn-lg navShopNow py-2" role="button" aria-disabled="true">Shop Tiles</a>
+              </li>
+              <li class="nav-link">
+                <img src="images/Triangle_black_1.svg" style="height: 1.6em;" class="img-fluid">
+              </li>
+            </ul>
+          </div>
+        </nav>
+                        
+                <!-- <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Product
                   </a>
@@ -45,189 +80,154 @@
                     <a class="dropdown-item" href="#"><img src="images/SUM20-desktop-AS-Mate-Main-Nav.webp"
                         alt="tile sticker" style="height: 50px;display: block;"alt="Tile edition">Limited Edition</a>
                   </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><strong>Premium</strong></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><strong>Partners</strong></a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><strong>Crop sales</strong></a>
-                  </li>
-                </ul>
-                <ul class="navbar-nav"style="margin-left: auto;">
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Help</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Log in</a>
-                </li> 
-                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="background:darkcyan;
-                    border-radius: 50px;width:170px;color: white;text-align: center;">Shop Tiles</a>
-                </li>
-                <img src="images/Triangle_black_1.svg" style="height: 36px;">
-              </ul>
-            </div>
-          </nav>
-          </div>
-    </header>
+                </li> -->
     <!--carousel section-->
     <section>
-        <div class="carousel">
-            <div class="box">
-            <h3>Back to track</h3>
-            <p style="font-family:'Arial Narrow', Arial, sans-serif;font-size: 40px">Stock up on Tiles to</p>
-              <p style="font-size: 40px;">keep the new normal</p>   
-              <p style="font-size: 40px;">humming along</p><br><br>
-            <div class="carousel-a">
-                <div class="first">
-                    <p>Mate</p>
-                </div>
-                <div class="second">
-                    <p>Slim</p>
-                </div>
-                <div class="third">
-                    <p>Sticker</p>
+      <div class="container-fluid px-0 pb-5 bg">
+          <div class="row no-gutters">
+            <div class="col col-lg-4 col-md-12 col-sm-12 track pt-5 mt-5 ml-5 pl-5">
+              <h3>Back on track</h3>
+              <article class="font-weight-light w-75">Stock up on Tiles to
+                keep the new normal
+                humming along</article>
+                <div class="pt-5 mt-5 mate">Mate | Slim | Sticker</div>
+                <h3><strong>Up to 20% Off</strong></h3>
+                <div>
+                  <a href="#" class="btn btn-primary btn-lg shopNow font-weight-bold py-2" role="button">Shop Now</a>
                 </div>
             </div>
-            <h3>Up to 20% off</h3><br>
-            <button style="background: darkcyan;border-radius: 50px;width:180px;
-            border:darkcyan;color: white;height: 40px;">Show Now</button>
-            </div>
-        </div>
+          </div>
+      </div>
 
     </section>
+
     <!--product section-->
-    <section style="background: rgb(199, 196, 196);">
-    <div class="parent">
-      
-        <div class="child">
-          <img src="images/FY20_Screen_Screens_2x.webp" alt="Tile product">
-        </div>
-        <div class="child">
-        <div class="box1">
-          <h3>Tile Premium</h3>
-          <p>Personalized.<br>Proactive.Powerful</p>
-          <p>Upgrade your Tile premium. Personalized finding <br>power and exclusive service
-            gives you greater<br> peace of mind.
-          </p>
-          <span>
-            <button>Start free trial</button>
-            <button>Learn More</button>
-          </span>
-        </div>
+    <section>
+      <div class="container-fluid px-0">
+        <div class="row no-gutters">
+          <div class="col col-lg-6 col-md-12 col-sm-12 col-auto">
+            <img src="images/FY20_Screen_Screens_2x.webp" alt="Tile product" class="img-fluid">
+          </div>
+          <div class="col col-lg-6 col-md-12 col-sm-12 col-auto col-md-auto pt-5 mt-5 pl-5">
+            <div class="h-75 w-75 rounded premium">
+              <p class="p-5">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-      
-      <div class="parent" style="justify-content: space-between;">
-      
-        <div class="child">
-          <div class="boxA">
-            <h3 style="color: turquoise;border-bottom: 2px solid orange;">This Tile</h3>
-              <p>Finding made easy.</p>
-              <p>Our family of finders and handly Tile app mean that now everything can 
-                be found safely and securely
-              </p>
-              <span>
-                <button style="background: darkcyan;border-radius: 50px;color: white;
-                width:25% ;height: 5%;border: 2px solid darkcyan;">Learn More</button>
-                <button style="background: white;border: 2px solid darkcyan;width: 25%;
-                ">watch video<i class="fa fa-caret-down"></i></button>
-              </span>
-              </div>
-            </div>
-          
-          <div class="child">
-            <img src="images/HP_Module_TIT__1_.png" alt="picture of a baby girl">
-            </div>
-          </div>
-
-          <div class="parent">
-        
-          <div class="child">
-            <img src="images/PERSONAL TASK.webp">
-
-          </div>
-            <div class="boxB">
-              <h3>Tile + skullcandy</h3>
-              <p>True wireless get finding power</p>
-              <p>Tile has partnered with skullcandy to bring finding power to<br> their all-new
-                True wireless ear buds so you can even find your<br> buds individually
-
-              </p>
-              <button style>Find out More</button>
-            </div>
-            </div>
     </section>
+
     <section>
-<div class="d-flex justify-content-center"id="d-flex-aa"
-><p></p>Choose from a full lineup of Tiles</p></div>
-<br><br><br><br>
-<div class="d-flex justify-content-center">
-  <div class="child1">
-    <img src="images/Sticker_2-PT.webp"alt="Tile sticker">
-    <h3  style="text-align:left;">Sticker</h3>
-    <p style="font-size: 20px;">The small, stickable<br> finder</p>
-    <button style="background: darkcyan;border-radius: 50px;width:180px;
-    border:darkcyan;color: white;height: 40px;">Show Now</button>
-  
-  </div>
-  <div class="child1">
-    <img src="images/FY20_Sticker_Phone_2x-PT3.webp"alt="Tile stricker">
-<h3  style="text-align:left;">Pro</h3>
-<p style="font-size: 20px;">The sleekest<br> finder</p>
-<button style="background: darkcyan;border-radius: 50px;width:180px;
-border:darkcyan;color: white;height: 40px;">Show Now</button>
-
-  </div>
-  <div class="child1">
-    <img src="images/FY20_Sticker_Wallet_2x-PT1.webp"alt="Tile sticker">
-    <h3 style="text-align:left;">Slim</h3>
-    <p style="font-size: 20px;">The high-performance<br> finder</p>
-    <button style="background: darkcyan;border-radius: 50px;width:180px;
-    border:darkcyan;color: white;height: 40px;">Show Now</button>
-     
-  </div>
-  <div class="child1">
-    <img src="images/FY20_Sticker_Tote_2x-PT2.webp"alt="Tile sticker">
-    <h3  style="text-align:left;">Mate</h3>
-    <p style="font-size: 20px;">The versatile finder for<br> everyday thing</p>
-    <button style="background: darkcyan;border-radius: 50px;width:180px;
-    border:darkcyan;color: white;height: 40px;">Show Now</button>
-    
-  </div>
-</div><br><br><br><br>
-<div class="d-flex justify-content-center">
-  <p style="width: 479px; font-size: 40px;"> Welcome to the world's largest lost-and-found community</p>
-   
-
-</div>
-<br>
-<div class="d-flex justify-content-center">
-  <p style="width: 580px;font-size: 19px;">We connect people to their things and to a global community of finding power.
-    We believe the more we connect the more powerfull we are.Our vision is to 
-    share a world where everything can be found.</p>
-</div>
-<div class="d-flex justify-content-center">
-  <div class="flex-a">
-    <p style="margin-top: 20px;font-size: 20px;">Things found everyday by Tile</p>
-    <p style="color: darkcyan;font-size: 39px;">6M</p>
-  </div>
-  <div class="flex-a">
-    <p style="margin-top: 20px;font-size: 20px;">Countries in the Tile community</p>
-    <p style="color: darkcyan;font-size: 39px;">195</p>
-  </div>
-  <div class="flex-a">
-    <p style="margin-top: 20px;font-size: 20px;">Tiles marked lost that are found</p>
-    <p style="color:darkcyan;font-size: 39px;">90%</p>
-  </div>
-</div>
+      <div class="container-fluid px-0">
+        <div class="row no-gutters">
+          <div class="col col-lg-6 col-md-12 col-sm-12 col-auto pt-5 mt-5 pl-5">
+            <div class="h-75 w-75 rounded premium">
+              <p class="p-5">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              </p>
+            </div>
+          </div>
+          <div class="col col-lg-6 col-md-12 col-sm-12 col-auto">
+            <img src="images/HP_Module_TIT__1_.png" alt="Tile product" class="img-fluid">
+          </div>
+        </div>
+      </div>
     </section>
+
+    <section>
+      <div class="container-fluid px-0">
+        <div class="row no-gutters">
+          <div class="col col-lg-6 col-md-12 col-sm-12 col-auto">
+            <img src="images/PERSONAL TASK.webp" alt="Tile product" class="img-fluid">
+          </div>
+          <div class="col col-lg-6 col-md-12 col-sm-12 col-auto pt-5 mt-5 pl-5">
+            <div class="h-75 w-75 rounded premium">
+              <p class="p-5">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+      <section>
+        <div class="d-flex justify-content-center" id="d-flex-aa">
+          <p>Choose from a full lineup of Tiles</p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="child1 col col-lg-3 col-md-6 col-sm-12">
+              <img src="images/Sticker_2-PT.webp"alt="Tile sticker" class="img-fluid">
+              <h3  style="text-align:left;">Sticker</h3>
+              <p style="font-size: 20px;">The small, stickable<br> finder</p>
+              <button style="background: darkcyan;border-radius: 50px;width:180px;
+              border:darkcyan;color: white;height: 40px;">Show Now</button>
+            </div>
+            <div class="child1 col col-lg-3 col-md-6 col-sm-12">
+              <img src="images/FY20_Sticker_Phone_2x-PT3.webp"alt="Tile sticker" class="img-fluid">
+              <h3  style="text-align:left;">Pro</h3>
+              <p style="font-size: 20px;">The sleekest<br> finder</p>
+              <button style="background: darkcyan;border-radius: 50px;width:180px; border:darkcyan;color: white;height: 40px;">Show Now</button>
+            </div>
+            <div class="child1 col col-lg-3 col-md-6 col-sm-12">
+              <img src="images/FY20_Sticker_Wallet_2x-PT1.webp"alt="Tile sticker" class="img-fluid">
+              <h3 style="text-align:left;">Slim</h3>
+              <p style="font-size: 20px;">The high-performance<br> finder</p>
+              <button style="background: darkcyan;border-radius: 50px;width:180px;
+              border:darkcyan;color: white;height: 40px;">Show Now</button>
+              
+            </div>
+            <div class="child1 col col-lg-3 col-md-6 col-sm-12">
+              <img src="images/FY20_Sticker_Tote_2x-PT2.webp"alt="Tile sticker" class="img-fluid">
+              <h3  style="text-align:left;">Mate</h3>
+              <p style="font-size: 20px;">The versatile finder for<br> everyday thing</p>
+              <button style="background: darkcyan;border-radius: 50px;width:180px;
+              border:darkcyan;color: white;height: 40px;">Show Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- <div class="d-flex justify-content-center">
+        <p style="width: 479px; font-size: 40px;"> Welcome to the world's largest lost-and-found community</p>
+        
+
+      </div>
+      <br>
+      <div class="d-flex justify-content-center">
+        <p style="width: 580px;font-size: 19px;">We connect people to their things and to a global community of finding power.
+          We believe the more we connect the more powerfull we are.Our vision is to 
+          share a world where everything can be found.</p>
+      </div>
+      <div class="d-flex justify-content-center">
+        <div class="flex-a">
+          <p style="margin-top: 20px;font-size: 20px;">Things found everyday by Tile</p>
+          <p style="color: darkcyan;font-size: 39px;">6M</p>
+        </div>
+        <div class="flex-a">
+          <p style="margin-top: 20px;font-size: 20px;">Countries in the Tile community</p>
+          <p style="color: darkcyan;font-size: 39px;">195</p>
+        </div>
+        <div class="flex-a">
+          <p style="margin-top: 20px;font-size: 20px;">Tiles marked lost that are found</p>
+          <p style="color:darkcyan;font-size: 39px;">90%</p>
+        </div>
+      </div>
+    </section> -->
     <!--footer section-->
-<section>
+<!-- <section>
   <footer>
     <div class="d-flex justify-content-around"style="margin-top: 50px;">
       <div class="footer">
@@ -294,7 +294,7 @@ border:darkcyan;color: white;height: 40px;">Show Now</button>
       </div>
     </div> 
   </footer>
-</section>
+</section> -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
